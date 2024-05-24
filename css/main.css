@@ -1,0 +1,10 @@
+@import url(./desktop/body.css);
+@import url(./desktop/header.css);
+@import url(./desktop/story.css);
+@import url(./desktop/swiperOne.css);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

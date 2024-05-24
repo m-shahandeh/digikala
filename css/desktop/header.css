@@ -1,0 +1,174 @@
+@import url(./font.css);
+
+.ads img {
+  width: 100vw;
+  height: 60px;
+}
+.top {
+  width: 100vw;
+  height: 68px;
+  padding: 12px 16px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & .right {
+    width: 90%;
+    height: 44px;
+    display: flex;
+    & .digikalaLogo {
+      margin-left: 20px;
+    }
+    & .search {
+      width: 600px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      background-color: #f0f0f1;
+      border-radius: 8px;
+      padding: 0px 16px;
+      & input {
+        background-color: #00000000;
+        border-width: 0px;
+        width: 568px;
+        height: 44px;
+        line-height: 44px;
+        padding: 0px 16px;
+        font-family: iranyekanregular;
+        font-size: 12px;
+        font-weight: 400;
+        color: #81858b;
+      }
+    }
+  }
+  & .left {
+    display: flex;
+    align-items: center;
+    & .login {
+      width: 134.25px;
+      height: 40px;
+      border: 1px solid #e0e0e2;
+      border-radius: 8px;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      & img {
+        margin-left: 8px;
+      }
+      & span {
+        font-family: iranyekanregular;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(12, 12, 12);
+      }
+    }
+    & .divider {
+      width: 1px;
+      height: 24px;
+      margin: 0px 12px;
+      background-color: #e0e0e2;
+    }
+    & .loginCratImage {
+      padding: 8px;
+    }
+  }
+}
+
+.bottom {
+  width: 100vw;
+  height: 40px;
+  margin: 0px auto;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & .category {
+    width: 962.078px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    & div {
+      padding: 0px 12px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+    }
+    & img {
+      width: 18px;
+      height: 18px;
+      margin-left: 4px;
+    }
+    & a {
+      font-family: iranyekanregular;
+      font-weight: 400;
+      font-size: 12px;
+      color: #3f4064;
+      text-decoration: none;
+      text-wrap: nowrap;
+    }
+    & .headerNavigation {
+      width: 142.047px;
+      margin: 0px;
+      padding: 0px;
+      & img {
+        width: 20px;
+        height: 20px;
+      }
+      & span {
+        font-family: iranyekanregularBold;
+        font-weight: 700;
+        font-size: 14px;
+        color: #424750;
+      }
+    }
+    & .incredible {
+      width: 115.91px;
+    }
+    & .superMarket {
+      width: 101.64px;
+    }
+    & .giftCard {
+      width: 101.03px;
+    }
+    & .bestSelling {
+      width: 120.88px;
+    }
+    & .promotionCenter {
+      width: 159.88px;
+    }
+    & .faq {
+      width: 89.31px;
+    }
+    & .sellerIntroduction {
+      width: 131.39px;
+    }
+    & .headerNavigationDivider{
+      width: 1px;
+      height: 16px;
+      background-color: #e0e0e2;
+      padding: 0px;
+    }
+  }
+  & .chooseCity {
+    width: 173.125px;
+    height: 40px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+    & img{
+      width: 20px;
+      height: 20px;
+      margin-left: 8px;
+    }
+    & span{
+      font-size: 12px;
+      font-weight: 400;
+      color: #3f4064;
+    }
+  }
+}
+.headerDivider{
+  width: inherit;
+  height: 1px;
+  background-color: #D0D0D0;
+}

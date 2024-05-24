@@ -1,0 +1,33 @@
+.swiperOne {
+  width: 100vw;
+  height: 400px;
+  --swiper-pagination-color: rgb(255, 255, 255);
+  --swiper-pagination-progressbar-bg-color: rgba(12, 12, 12, 0.25);
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 16px;
+
+  & img {
+    width: 100vw;
+    height: 400px;
+  }
+
+  .firstSwiper .swiper-button-next,
+  .firstSwiper .swiper-button-prev {
+    padding: 20px;
+    border-radius: 20px;
+    border: #e0e0e2 solid 1px;
+    background-color: #ffffff;
+    --swiper-navigation-size: 10px;
+    --swiper-navigation-color: #424750;
+    font-weight: 900;
+    font-size: 15px;
+  }
+}
+
+.swiperOne:hover .swiper-button-next {
+  visibility: visible;
+}
+
+.swiperOne:hover .swiper-button-prev {
+  visibility: visible;
+}
