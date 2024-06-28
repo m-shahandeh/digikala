@@ -1,0 +1,201 @@
+@import url(./font.css);
+
+.megaMenu {
+  width: 61vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+
+  .parentMenu {
+    width: 10vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    & .parentItem {
+      direction: rtl;
+      width: 10vw;
+      height: 52.03px;
+      border-width: 1px 0px;
+      padding: 12px 8px;
+      background-color: #f0f0f1;
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: iranyekanregularBold, sans-serif;
+      svg {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  & .childMenu {
+    display: flex;
+    justify-content: right;
+    width: fit-content;
+    height: 80vh;
+    max-height: 80vh;
+
+    & .mobile {
+      display: none;
+      height: inherit;
+      overflow-x: hidden;
+      direction: ltr;
+      flex-flow: column;
+      background-color: white;
+      padding: 20px 20px 0px 20px;
+    }
+    & .book {
+      display: none;
+      width: inherit;
+      height: inherit;
+      overflow-x: hidden;
+      direction: ltr;
+      flex-flow: column;
+      background-color: white;
+      padding: 20px 20px 0px 20px;
+    }
+    & .electronic {
+      display: none;
+      width: inherit;
+      height: inherit;
+      overflow-x: hidden;
+      direction: ltr;
+      flex-flow: column;
+      background-color: white;
+      padding: 20px 20px 0px 20px;
+    }
+    & .homeAndKitchen {
+      display: none;
+      width: inherit;
+      height: inherit;
+      overflow-x: hidden;
+      direction: ltr;
+      flex-flow: column;
+      background-color: white;
+      padding: 20px 20px 0px 20px;
+    }
+    & .allCategory {
+      width: 880px;
+      height: 26.031px;
+      margin-bottom: 20px;
+      direction: rtl;
+      display: flex;
+      align-items: center;
+      color: #008eb2;
+      font: 700 12px iranyekanregularBold, sans-serif;
+      svg {
+        fill: #008eb2;
+        width: 16px;
+        height: 16px;
+      }
+    }
+    & .categoriesContainer {
+      width: 880px;
+      height: 662px;
+      direction: rtl;
+      display: flex;
+      flex-flow: row;
+      & .childCategory {
+        width: 220px;
+        height: 662px;
+        display: flex;
+        flex-flow: column;
+        & .mainItem {
+          width: 220px;
+          height: 38.09px;
+          min-height: 38.09px;
+          padding: 4px 0px;
+          margin-bottom: 8px;
+          display: flex;
+          align-items: center;
+          & div {
+            width: 2px;
+            height: 14px;
+            padding: 0px;
+            margin-left: 8px;
+            background-color: #ef4056;
+          }
+          & span {
+            font-size: 14px;
+            font-weight: 700;
+            font-family: iranyekanregularBold, sans-serif;
+            color: #0c0c0c;
+          }
+          svg {
+            width: 18px;
+            height: 18px;
+            fill: #0c0c0c;
+          }
+        }
+        & .secondaryItem {
+          width: 220px;
+          height: 34px;
+          min-height: 34px;
+          padding: 4px 0px;
+          & span {
+            color: #81858b;
+          }
+        }
+        & .secondaryItem:hover {
+          color: #ef394e;
+        }
+        & .mainItem:hover {
+          span {
+            color: #ef394e;
+          }
+          svg {
+            fill: #ef394e;
+          }
+        }
+      }
+    }
+  }
+
+  & .parentItem:hover {
+    background-color: white;
+    color: red;
+    use {
+      fill: red;
+      display: flex;
+    }
+  }
+}
+
+& .megaMenu:has(.Mobile:hover) {
+  .childMenu {
+    .mobile {
+      display: flex;
+    }
+  }
+}
+
+& .megaMenu:has(.Book:hover) {
+  .childMenu {
+    .book {
+      display: flex;
+    }
+  }
+}
+
+& .megaMenu:has(.Electronic:hover) {
+  .childMenu {
+    .electronic {
+      display: flex;
+    }
+  }
+}
+
+& .megaMenu:has(.HomeAndKitchen:hover) {
+  .childMenu {
+    .homeAndKitchen {
+      display: flex;
+    }
+  }
+}
+

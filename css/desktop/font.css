@@ -13,3 +13,11 @@
   src: url(../../font/IRANYekanWeb-Bold.woff);
   src: url(../../font/IRANYekanWeb-Bold.woff2);
 }
+
+@font-face {
+  font-family: iranyekanregularExtraBold;
+  src: url(../../font/IRANYekanWeb-Bold.eot);
+  src: url(../../font/IRANYekanWeb-Bold.ttf);
+  src: url(../../font/IRANYekanWeb-Bold.woff);
+  src: url(../../font/IRANYekanWeb-Bold.woff2);
+}

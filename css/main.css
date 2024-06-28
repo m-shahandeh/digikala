@@ -1,10 +1,29 @@
-@import url(./desktop/body.css);
-@import url(./desktop/header.css);
-@import url(./desktop/story.css);
-@import url(./desktop/swiperOne.css);
+@import url(./desktop/header/header.css);
+@import url(./desktop/header/menu.css);
+@import url(./desktop/main/main.css);
+@import url(./desktop/main/story.css);
+@import url(./desktop/main/swiperOne.css);
+@import url(./desktop/main/menuOne.css);
+@import url(./desktop/main/swiperTwo.css);
+@import url(./desktop/main/amazingShortcut.css);
+@import url(./desktop/main/bannerOne.css);
+@import url(./desktop/main/menuTwo.css);
+@import url(./desktop/main/bannerTwo.css);
+@import url(./desktop/main/menuThree.css);
+@import url(./desktop/main/menuFour.css);
+@import url(./desktop/main/digiclub.css);
+@import url(./desktop/main/menuFive.css);
+@import url(./desktop/main/menuSix.css);
+@import url(./desktop/main/menuSeven.css);
+@import url(./desktop/footer/top.css);
+@import url(./desktop/footer/division.css);
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
 }

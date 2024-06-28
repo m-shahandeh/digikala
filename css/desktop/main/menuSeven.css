@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+@import url(../font.css);
+
+.menuSeven {
+  width: 72vw;
+  height: 812px;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+  padding: 0px 12px;
+
+  & .header {
+    width: fit-content;
+    height: 76px;
+    margin: 0px auto;
+    margin-bottom: 8px;
+    padding: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .title {
+      font: 500 21px iranyekanregular;
+      margin-right: 8px;
+    }
+  }
+
+  & .main {
+    width: fit-content;
+    height: 726px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px;
+  }
+
+  & .item {
+    width: 218px;
+    height: 242px;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f0f0f1;
+    border-left: 1px solid #f0f0f1;
+    text-decoration: none;
+  }
+
+  & .itemImage {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 4px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  & .newPrice {
+    width: 201px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .percent {
+    width: 34px;
+    height: 20px;
+    padding: 0px 4px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d32f2f;
+  }
+
+  & .percentSpan {
+    background-color: #d32f2f;
+    font: 700 12px iranyekanregular;
+    color: white;
+  }
+
+  & .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+  }
+
+  & .priceSpan {
+    font: 700 16px iranyekanregularBold;
+    color: #3f4064;
+  }
+
+  & .oldPrice {
+    width: 201px;
+    height: 26px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font: 400 12px iranyekanregular;
+    color: #c0c2c5;
+    text-decoration: line-through;
+  }
+
+  & .leftItem{
+    border-left: none;
+  }
+}

@@ -1,0 +1,411 @@
+@import url(../font.css);
+
+footer {
+  width: 100vw;
+  height: fit-content;
+  min-height: 1124px;
+  margin-top: 48px;
+  border-top: 1px solid #f0f0f1;
+  padding-top: 32px;
+
+  & .container {
+    width: 90vw;
+    height: fit-content;
+    min-height: 965px;
+    margin: 0px 89px;
+    padding: 0px 20px;
+
+    & .logo {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      & .logoImage {
+        width: 114px;
+        height: 30px;
+        margin-left: 16px;
+      }
+
+      & .moveToTop {
+        width: 139px;
+        height: 40px;
+        padding: 8px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        text-decoration: none;
+
+        & .moveToTopText {
+          margin-left: 8px;
+          font: 700 12px iranyekanregularBold;
+          color: #a1a3a8;
+        }
+      }
+    }
+
+    & .support {
+      width: 100%;
+      height: 26px;
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+
+      & p {
+        font: 400 12px iranyekanregular;
+        color: #3f4064;
+      }
+
+      & div {
+        width: 43px;
+        height: 26px;
+        padding: 0px 20px;
+      }
+    }
+
+    & .faq {
+      width: 100%;
+      height: 104px;
+      margin: 32px 0px;
+      display: flex;
+
+      & .item {
+        width: 321px;
+        height: 104px;
+        padding: 12px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        & .itemImage {
+          width: 56px;
+          height: 56px;
+        }
+
+        & .itemText {
+          font: 400 11px iranyekanregular;
+          color: #3f4064;
+        }
+      }
+    }
+
+    & .menu {
+      width: 100%;
+      height: 270px;
+      margin-bottom: 32px;
+      display: flex;
+
+      & .fragment {
+        display: flex;
+        flex-direction: column;
+      }
+
+      & .one {
+        width: 26.51%;
+        height: inherit;
+      }
+
+      & .two {
+        width: 27.46%;
+        height: inherit;
+      }
+
+      & .three {
+        width: 27.75%;
+        height: inherit;
+      }
+
+      & .four {
+        width: 18.27%;
+        height: inherit;
+      }
+
+      & .one,
+      .two,
+      .three {
+        & p {
+          width: 100%;
+          height: 33.59px;
+          margin-bottom: 8px;
+          font: 700 16px iranyekanregularBold;
+          color: #3f4064;
+        }
+
+        & a {
+          width: 100%;
+          height: 30px;
+          margin-bottom: 8px;
+          font: 400 14px iranyekanregular;
+          color: #81858b;
+          text-decoration: none;
+        }
+      }
+
+      & .rowOne {
+        & h4 {
+          height: 33.59px;
+          margin-bottom: 12px;
+          font: 700 16px iranyekanregularBold;
+          color: #3f4064;
+        }
+      }
+
+      & .rowTwo {
+        display: flex;
+
+        & img {
+          width: 40px;
+          height: 40px;
+          margin-left: 32px;
+        }
+      }
+
+      & .rowThree {
+        height: 34px;
+        margin: 32px 0px 12px 0px;
+
+        & h4 {
+          height: 33.59px;
+          margin-bottom: 12px;
+          font: 700 16px iranyekanregularBold;
+          color: #3f4064;
+        }
+      }
+
+      & .rowFour {
+        width: 299px;
+        height: 48px;
+
+        & form {
+          display: flex;
+        }
+
+        & .input {
+          width: 237px;
+          height: 48px;
+          padding: 0px 16px;
+          background-color: #f0f0f1;
+          border-color: transparent;
+          border-radius: 8px;
+          outline: none;
+          font: 400 15px iranyekanregular;
+          color: #3f4064;
+          opacity: 0.5;
+        }
+
+        & .button {
+          width: 54px;
+          height: 48px;
+          margin-right: 8px;
+          background-color: #e0e0e2;
+          border-color: transparent;
+          border-radius: 8px;
+          font: 700 14px iranyekanregularBold;
+          color: white;
+        }
+      }
+    }
+
+    & .digikalaApp {
+      height: 76px;
+      margin-bottom: 28px;
+      padding: 8px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 8px;
+      background-color: #3c4b6d;
+
+      & .right {
+        width: fit-content;
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & .icon {
+          width: 44px;
+          height: 44px;
+        }
+
+        & .title {
+          height: 44px;
+          margin-right: 16px;
+          font: 500 21px iranyekanregularBold;
+          color: white;
+          line-height: 44px;
+        }
+      }
+
+      & .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & .source {
+          width: 142px;
+          height: 44px;
+          margin: 8px;
+
+          & img {
+            width: inherit;
+            height: inherit;
+            border-radius: 4px;
+            object-fit: contain;
+          }
+        }
+
+        & .moreSource {
+          width: 44px;
+          height: 44px;
+          margin-right: 16px;
+          border-radius: 4px;
+          display: block;
+          background-color: white;
+
+          & img {
+            width: 44px;
+            height: 44px;
+            border: 1px solid #e0e0e2;
+            border-radius: 4px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    & .about {
+      width: 90vw;
+      height: 224px;
+      padding: 32px 0px;
+      border-top: 1px solid #f0f0f1;
+      display: flex;
+      justify-content: space-between;
+
+      & .right {
+        width: 1154px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+
+        & .headerOne {
+          height: 44px;
+          font: 700 21px iranyekanregularBold;
+          color: #62666d;
+        }
+
+        & .content {
+          width: 1154px;
+          height: fit-content;
+          position: relative;
+
+          & .paragraph {
+            width: 1154px;
+            height: 80px;
+            font: 400 12px iranyekanregular;
+            color: #81858b;
+            line-height: 26px;
+            text-wrap: wrap;
+            overflow: hidden;
+          }
+
+          & .cover {
+            width: 1154px;
+            height: 80px;
+            position: absolute;
+            top: 0px;
+            background: linear-gradient(
+              rgba(255, 255, 255, 0),
+              rgb(255, 255, 255)
+            );
+          }
+        }
+
+        & .showContent {
+          width: 92px;
+          height: 26px;
+          margin-top: 8px;
+          display: flex;
+
+          & .showMore {
+            width: 74px;
+            height: 26px;
+            font: 700 12px iranyekanregularBold;
+            color: #19bfd3;
+          }
+
+          & .arrow {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+
+      & .left {
+        display: flex;
+
+        & .item {
+          width: 109px;
+          height: 109px;
+          margin-right: 8px;
+          padding: 16px;
+          border: 1px solid #e0e0e2;
+          border-radius: 8px;
+          display: block;
+        }
+
+        & img {
+          width: 75px;
+          height: 75px;
+          object-fit: contain;
+        }
+      }
+    }
+
+    & .copyRight{
+      width: 100%;
+      padding: 32px 0px;
+      border-top: 1px solid #f0f0f1;
+      display: flex;
+      justify-content: center;
+      
+      & .text{
+        font: 400 11px iranyekanregular;
+        color: #81858b;
+      }
+    }
+  }
+}
+
+.about:has(.showContent:active) {
+  height: fit-content;
+
+  & .right{
+    height: fit-content;
+
+    & .content{
+      height: fit-content;
+
+      & .paragraph {
+        height: fit-content;
+      }
+
+      & .cover {
+        display: none;
+      }
+
+      & .showContent{
+        height: fit-content;
+      }
+    }
+  }
+
+
+  
+  
+}

@@ -1,0 +1,11 @@
+.bannerTwo{
+    width: 72vw;
+    height: 264px;
+    display: flex;
+    justify-content: space-between;
+    & img{
+        width: 660px;
+        height: 264px;
+        border-radius: 16px;
+    }
+}

@@ -1,0 +1,109 @@
+@import url(../font.css);
+.amazingShortcut {
+  width: 72vw;
+  height: 110px;
+  background-color: #f0f0f1;
+  border-radius: 16px;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../../../image/amazingShortcut/freshPattern.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  text-decoration: none;
+  & .right {
+    width: 465px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    & .firstImage {
+      width: 66px;
+      height: 62px;
+      background-color: transparent;
+    }
+    & .secondImage {
+      width: 250px;
+      height: 28px;
+      background-color: transparent;
+    }
+    & .percentDiscount {
+      width: 109px;
+      height: 30px;
+      padding: 0px 12px;
+      background-color: #029a49;
+      border-radius: 9999px;
+      font-family: iranyekanregularBold;
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+      line-height: 30px;
+    }
+  }
+  & .left {
+    width: 636px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    & .products {
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      & .item {
+        width: 74px;
+        height: 74px;
+        margin-left: 8px;
+        padding: 8px;
+        border-radius: 50%;
+        display: flex;
+        position: relative;
+        & img {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+        }
+        & .percent {
+          background-color: #d32f2f;
+          width: 34px;
+          height: 20px;
+          padding: 0px 4px;
+          border-radius: 16px;
+          font-size: 12px;
+          font-weight: 700;
+          font-family: iranyekanregularBold;
+          line-height: 20px;
+          color: white;
+          display: flex;
+          justify-content: center;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+    & .more {
+      width: 144px;
+      height: 50px;
+      padding: 12px 20px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      row-gap: 8px;
+      justify-content: space-between;
+      & span {
+        font-family: iranyekanregularBold;
+        font-size: 12px;
+        font-weight: 700;
+        color: #029a49;
+      }
+      & svg {
+        width: 20px;
+        height: 20px;
+        fill: #029a49;
+      }
+    }
+  }
+}

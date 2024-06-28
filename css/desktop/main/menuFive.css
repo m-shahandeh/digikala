@@ -1,0 +1,90 @@
+@import url(../font.css);
+
+.menuFive {
+  width: 72vw;
+  height: 404px;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+  padding: 16px 0px;
+
+  & .header {
+    width: 71.5vw;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+
+    & .image {
+      width: 24px;
+      height: 24px;
+      margin-left: 8px;
+      background: url(../../../image/menuFive/title.svg) no-repeat;
+    }
+
+    & .title {
+      font-family: iranyekanregular;
+      font-size: 21px;
+      font-weight: 500;
+      color: #0c0c0c;
+    }
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  & .item {
+    width: 314px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  
+    & .itemImage {
+      width: 98px;
+      height: 86px;
+      margin-left: 12px;
+      background-color: lime;
+    }
+  
+    & .itemNumber {
+      font-family: iranyekanregularExtraBold;
+      font-size: 26px;
+      font-weight: 800;
+      color: #19bfd3;
+      margin-left: 12px;
+    }
+  
+    & .itemTitle {
+      font-family: iranyekanregular;
+      width: 190px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #3f4064;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  
+  & .borderBottom {
+    border-bottom: 1px solid #f0f0f1;
+    margin: 10px 0px;
+  }
+}
+
+& .menuFiveSwiper .swiper-button-next,
+.menuFiveSwiper .swiper-button-prev {
+  padding: 20px;
+  border-radius: 20px;
+  border: #e0e0e2 solid 1px;
+  background-color: white;
+  --swiper-navigation-size: 10px;
+  --swiper-navigation-color: #424750;
+  font-weight: 900;
+  font-size: 15px;
+}

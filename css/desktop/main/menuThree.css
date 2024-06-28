@@ -1,0 +1,49 @@
+@import url(../font.css);
+.menuThree {
+  width: 72vw;
+  height: 225px;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+  padding: 24px 0px;
+  & .title {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: iranyekanregular;
+    font-size: 21px;
+    font-weight: 500;
+    color: #0c0c0c;
+  }
+  & .swiperThree {
+    height: 118px;
+    margin-top: 12px;
+    & .item {
+      width: 142px;
+      height: 118px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-left: 1px solid #f0f0f1;
+      & img {
+        width: 110px;
+        height: 110px;
+        object-fit: contain;
+      }
+    }
+
+    & .swiper-button-next,
+    .swiper-button-prev {
+      top: 45px;
+      padding: 20px;
+      border-radius: 20px;
+      border: #e0e0e2 solid 1px;
+      background-color: #ffffff;
+      --swiper-navigation-size: 10px;
+      --swiper-navigation-color: #424750;
+      font-weight: 900;
+      font-size: 15px;
+    }
+  }
+}

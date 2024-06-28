@@ -1,0 +1,11 @@
+.bannerOne{
+    width: 72vw;
+    height: 242px;
+    display: flex;
+    justify-content: space-between;
+    & img{
+        width: 320px;
+        height: 241px;
+        border-radius: 16px;
+    }
+}

@@ -1,0 +1,209 @@
+@import url(../font.css);
+.swiperTwo {
+  width: 72vw;
+  height: 294px;
+  background-color: #d62e4e;
+  padding: 20px 0px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .swiper-button-next,
+  .swiper-button-prev {
+    padding: 20px;
+    border-radius: 20px;
+    border: #e0e0e2 solid 1px;
+    background-color: white;
+    --swiper-navigation-size: 10px;
+    --swiper-navigation-color: #424750;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  & .title {
+    width: 166px;
+    height: 254px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    text-decoration: none;
+    background-color: #d62e4e;
+
+    & .amazings {
+      width: 88px;
+      height: 88px;
+      background-color: #d62e4e;
+    }
+
+    & .timer {
+      width: 94px;
+      height: 24px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: iranyekanregularBold;
+      font-size: 15px;
+      background-color: #d62e4e;
+
+      & .hour,
+      .minute,
+      .second {
+        width: 26px;
+        height: 26px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #23254e;
+      }
+
+      & .timerColon {
+        width: 4px;
+        height: 32px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: #d62e4e;
+      }
+    }
+
+    & .amazing {
+      width: 80px;
+      height: 80px;
+      background-color: #d62e4e;
+    }
+
+    & .showAll {
+      display: flex;
+      align-items: center;
+      background-color: #d62e4e;
+
+      span {
+        color: white;
+        font-family: iranyekanregularBold;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        background-color: #d62e4e;
+      }
+
+      svg {
+        fill: white;
+        width: 18px;
+        height: 18px;
+        background-color: #d62e4e;
+      }
+    }
+  }
+
+
+  & .item {
+    width: 160px;
+    height: 254px;
+    padding: 8px;
+    margin-left: 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    & img {
+      width: 132px;
+      height: 132px;
+      border-radius: 8px;
+      background-color: white;
+    }
+    & h3 {
+      width: 144px;
+      height: 40px;
+      font-family: iranyekanregular;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #62666d;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      line-clamp: 10;
+    }
+    & .currentPrice {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    & .discountPercent {
+      width: 34px;
+      height: 20px;
+      background-color: #d32f2f;
+      border-radius: 16px;
+      font-family: iranyekanregularBold;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    & .price {
+      color: #3f4064;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: iranyekanregularBold;
+      font-size: 14px;
+      font-weight: 700;
+      column-gap: 4px;
+      & img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    & .discount {
+      direction: ltr;
+      font-family: iranyekanregular;
+      font-size: 12px;
+      font-weight: 400;
+      text-decoration: line-through;
+      color: #c0c2c5;
+      padding-left: 20px;
+    }
+  }
+  & .firstItem {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  & .lastItem {
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    & .container {
+      width: 77px;
+      height: 94px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      & .imgContainer {
+        width: 52px;
+        height: 52px;
+        border-width: 2px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #19bfd3;
+        padding: 8px;
+      }
+      & img {
+        width: 32px;
+        height: 32px;
+      }
+      & span {
+        font-family: iranyekanregular;
+        font-size: 14px;
+        font-weight: 400;
+        color: #3f4064;
+      }
+    }
+  }
+}

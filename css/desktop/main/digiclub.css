@@ -1,0 +1,90 @@
+@import url(../font.css);
+
+.digiclub {
+  width: 72vw;
+  height: 88px;
+  margin-top: 8px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  border-radius: 16px;
+
+  & .titleContainer {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
+    & .titleImage {
+      width: 119px;
+      height: 33px;
+      margin-right: 24px;
+      background-color: transparent;
+    }
+  }
+
+  & .container {
+    width: 814px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 4px;
+    border-radius: 8px;
+  }
+
+  & .one,
+  .two,
+  .three {
+    width: 274px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0c0c0c;
+    background-color: white;
+  }
+
+  & .one {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  & .three {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 2px;
+  }
+
+  & .right {
+    width: 106px;
+    height: 60px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    & .rightImage {
+      width: 20px;
+      height: 20px;
+    }
+
+    & span {
+      font-family: iranyekanregularBold;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+
+  & .left {
+    display: flex;
+    align-items: center;
+    & .leftImage {
+      width: 168px;
+      height: 60px;
+      object-fit: cover;
+    }
+  }
+}
