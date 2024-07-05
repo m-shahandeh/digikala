@@ -23,7 +23,7 @@
     margin-bottom: 8px;
 
     & .title {
-      width: inherit;
+      width: 292px;
       height: 33.59px;
       line-height: 33.59px;
       color: #23254e;
@@ -31,7 +31,7 @@
     }
 
     & .description {
-      width: inherit;
+      width: 292px;
       height: 23.85px;
       line-height: 23.85px;
       color: #81858b;

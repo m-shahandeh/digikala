@@ -1,7 +1,7 @@
 @import url(../font.css);
 
 footer {
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   min-height: 1124px;
   margin-top: 48px;

@@ -3,7 +3,6 @@ main{
     padding: 0px;
     box-sizing: border-box;
     width: 100vw;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
