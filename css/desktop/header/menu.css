@@ -4,26 +4,18 @@
   width: 61vw;
   height: 80vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   z-index: 10;
-  position: relative;
 
-  & .Mobile,
-  & .Book,
-  & .Electronic,
-  & .HomeAndKitchen,
-  & .HomeElectronic,
-  & .Fashion,
-  & .Jewelry,
-  & .Beauty,
-  & .Health,
-  & .SportOutdoor,
-  & .GiftCard,
-  & .Fresh,
-  & .KidsToy,
-  & .Tools,
-  & .Vehicles,
-  & .NativeBusiness {
+  .parent {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    direction: ltr;
+  }
+
+  .parentItem {
     direction: rtl;
     width: 10vw;
     height: 52.03px;
@@ -31,7 +23,6 @@
     padding: 12px 8px;
     background-color: #f0f0f1;
     display: flex;
-    flex-shrink: 0;
     align-items: center;
     text-decoration: none;
     svg {
@@ -47,8 +38,6 @@
   .fashion {
     display: none;
     height: inherit;
-    position: absolute;
-    right: 10vw;
     overflow-x: hidden;
     direction: ltr;
     flex-flow: column;
@@ -132,38 +121,6 @@
       }
     }
   }
-
-  .Mobile:hover + .mobile {
-    display: flex;
-  }
-
-  .mobile:hover {
-    display: flex;
-  }
-
-  .Book:hover + .book {
-    display: flex;
-  }
-
-  .book:hover {
-    display: flex;
-  }
-
-  .Electronic:hover + .electronic {
-    display: flex;
-  }
-
-  .electronic:hover {
-    display: flex;
-  }
-
-  .HomeAndKitchen:hover + .homeAndKitchen {
-    display: flex;
-  }
-
-  .homeAndKitchen:hover {
-    display: flex;
-  }
 }
 
 & .parentItem:hover {
@@ -173,4 +130,64 @@
     fill: red;
     display: flex;
   }
+}
+
+.megaMenu:has(.Mobile:hover) {
+  .mobile {
+    display: flex;
+  }
+}
+
+.megaMenu:has(.Book:hover) {
+  .book {
+    display: flex;
+  }
+}
+
+.megaMenu:has(.Electronic:hover) {
+  .electronic {
+    display: flex;
+  }
+}
+
+.megaMenu:has(.HomeAndKitchen:hover) {
+  .homeAndKitchen {
+    display: flex;
+  }
+}
+
+.megaMenu:has(.HomeElectronic:hover) {
+  .homeElectronic {
+    display: flex;
+  }
+}
+
+.megaMenu:has(.Fashion:hover) {
+  .fashion {
+    display: flex;
+  }
+}
+
+.mobile:hover {
+  display: flex;
+}
+
+.book:hover {
+  display: flex;
+}
+
+.electronic:hover {
+  display: flex;
+}
+
+.homeAndKitchen:hover {
+  display: flex;
+}
+
+.homeElectronic:hover {
+  display: flex;
+}
+
+.fashion:hover {
+  display: flex;
 }

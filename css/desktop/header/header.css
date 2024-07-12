@@ -200,7 +200,7 @@
       color: #3f4064;
     }
 
-    & .description{
+    & .description {
       width: 173px;
       height: 40px;
       margin: 8px;
@@ -212,18 +212,18 @@
       z-index: 100;
       display: none;
 
-      span{
+      span {
         color: white;
       }
     }
 
-    & .content:hover + .description{
+    & .content:hover + .description {
       display: block;
     }
   }
 
-  & .headerNavigation:hover{
-    & .megaMenu{
+  & .headerNavigation:hover {
+    & .megaMenu {
       display: flex;
     }
   }
